@@ -5,7 +5,7 @@ import { AiOutlineMail } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <div>
+    <footer>
       <div className="items-center md:text-center p-4">
         <h3 className="font-bold font-playfair text-main-color md: text-4xl">
           Interested in a bouquet? Contact me on any socials or email!
@@ -33,7 +33,7 @@ const Footer = () => {
           © 2023 made by Dylan J. All Rights Reserved.
         </p>
       </div>
-    </div>
+    </footer>
   );
 };
 

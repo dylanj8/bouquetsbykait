@@ -18,7 +18,12 @@ const Display = () => {
       <div className="hidden md:grid grid-cols-4 gap-2 m-2 ">
         {imageArr.map((image, index) => (
           <div key={index}>
-            <img src={image} alt="image" className="rounded-md" />
+            <img
+              src={image}
+              alt="image"
+              className="rounded-md"
+              style={{ width: "100%", height: "100%", objectFit: "cover" }}
+            />
           </div>
         ))}
       </div>

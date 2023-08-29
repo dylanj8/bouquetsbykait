@@ -1,4 +1,3 @@
-import React from "react";
 import image17 from "../images/image17.jpg";
 
 const About = () => {
@@ -7,7 +6,7 @@ const About = () => {
       <h1 className="font-alex font-bold text-5xl text-center p-2   md:text-7xl">
         About
       </h1>
-      <div className="flex flex-col items-center md:flex-row justify-center items-center m-2">
+      <article className="flex flex-col items-center md:flex-row justify-center items-center m-2">
         <p className="font-playfair text-1xl md:text-3xl p-3">
           Located in the Penrith area, welcome to Bouquets by Kait, where each
           bouquet is an exclusively designed arrangement, from the choice of the
@@ -21,7 +20,7 @@ const About = () => {
           alt="image"
           className="h-[300px] rounded-md md:h-[400px]"
         />
-      </div>
+      </article>
     </div>
   );
 };
